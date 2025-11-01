@@ -1,0 +1,58 @@
+a = 3
+b = ""
+c = " "
+d = True
+e = False
+f = 50.20
+h = 67
+i = 15
+j = 648
+k = 280
+
+
+
+
+print(a < b and a < e)
+print(c < d and a < e)
+print(e < f and a < e)
+print(h < i and a < e)
+print(j < k and a < e)
+print(k < a and a < e)
+print(a < c and a < e)
+print(j < e and a < e)
+print(i < i and a < e )
+print(f < k and a < e)
+
+print(a > b or a < e)
+print(c > d or a < e)
+print(e > f or a < e)
+print(h > i or a < e)
+print(j > k or a < e)
+print(k > a or a < e)
+print(a > c or a < e)
+print(j > e or a < e)
+print(i > i or a < e)
+print(f > k or a < e)
+
+print(not a)
+print(not c)
+print(not e)
+print(not h)
+print(not j)
+print(not i)
+print(not f)
+print(not k)
+print(not j)
+print(not a)
+
+print(type(a))
+print(type(c))
+print(type(e))
+print(type(h))
+print(type(j))
+print(type(i))
+print(type(f))
+print(type(k))
+print(type(j))
+print(type(a))
+
