@@ -1,0 +1,54 @@
+a = 67
+b = 15
+c = 648
+x = 280
+y = a * b + c * x
+
+print(y)
+
+a = 67
+b = 15
+c = 648
+x = 280
+y = a - b * c / x
+
+print(y)
+
+
+
+x = 15
+y = -x
+print(y)
+
+
+
+a = 20 
+X = 30
+y = a ** x
+print(y)
+
+
+
+
+a = 67
+b = 15
+c = 648
+x = 280
+y = a * x ** 3 + b ** 2 + c * x + b
+
+
+
+print(y)
+
+
+
+
+a = 67
+b = 15
+c = 648
+x = 280
+y = a * x ** 2 + b * x + c
+
+
+
+print(y)
