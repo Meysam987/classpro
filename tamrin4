@@ -1,0 +1,35 @@
+import math as m
+x = 360
+s = m.sqrt(m.sin(x)+1)
+print(s)
+
+
+x = 10
+f = m.sin(x) / m.cos(x)
+s = m.sqrt(f)
+print(s)
+
+
+x = 100
+f = m.tan(x) / m.sin(x)
+s = m.sqrt(f)
+print(s)
+
+
+x = 10
+f = 1/(1+m.exp(-x))
+s = m.sqrt(f)
+print(s)
+
+
+
+x = 10
+a = 60
+f = x-a*(m.sqrt(x)/m.sqrt(a))
+print(f)
+
+
+
+x = 10
+f = 1-m.exp(m.sin(x))
+print(f)
