@@ -1,3 +1,14 @@
+
+def p(a):
+    print (a)
+    if(a == 0):
+        return a
+    return p(a-1)
+
+p(10)
+
+
+
 print(1 + 2)
 print(5 + 9)
 print(10 + 33)
@@ -162,13 +173,6 @@ print(not (3 == 2))
 print(not (100 < 50))
 
 
-def p(a):
-    print (a)
-    if(a == 0):
-        return a
-    return p(a-1)
-
-p(10)
 
 
 
