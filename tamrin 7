@@ -1,0 +1,14 @@
+def a(n):
+    if(n == 0):
+        return 1
+    return n * a(n-1)
+a(3)
+
+
+
+def t(n):
+    if(n == 0):
+        return 1
+    return t(n-1) * 2
+
+t(4)
